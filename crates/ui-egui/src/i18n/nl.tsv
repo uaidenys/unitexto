@@ -4,12 +4,12 @@
 #              columns, and a trailing … in one needs one in the other.
 #   Lines starting with # and blank lines are ignored. A missing entry shows in English.
 #
-# Clean-room: written from the meaning of WordCraft's English labels in standard Dutch.
+# Clean-room: written from the meaning of UniTexto's English labels in standard Dutch.
 	(no suggestions)	(geen suggesties)
 	1.5 Line Spacing	Regelafstand 1,5
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the ArtCraft team.	Een gratis, open source-tekstverwerker die volledig van scratch in Rust is geschreven.\nOnderdeel van de Crafting Apps van het team van ArtCraft.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Een gratis, open source-tekstverwerker die volledig van scratch in Rust is geschreven.\nOnderdeel van de Crafting Apps van het team van Uniphar Indústria Farmacêutica.
 	About	Over
-	About WordCraft	Over WordCraft
+	About UniTexto	Over UniTexto
 	Accept	Accepteren
 	Accept All Changes	Alle wijzigingen accepteren
 	Accept This Change	Deze wijziging accepteren
@@ -350,7 +350,7 @@
 	Inspect Styles at Selection	Stijlen bij selectie controleren
 	Interface language:	Interfacetaal:
 	Italic	Cursief
-	Join the ArtCraft community on Discord	Sluit je aan bij de ArtCraft-community op Discord
+	Join the Uniphar Indústria Farmacêutica community on Discord	Sluit je aan bij de Uniphar Indústria Farmacêutica-community op Discord
 	Join us on Discord: discord.gg/artcraft	Volg ons op Discord: discord.gg/artcraft
 	Justify	Uitvullen
 	Keep Lines Together	Regels bij elkaar houden
@@ -390,7 +390,7 @@
 	Link to Previous	Koppelen aan vorige
 	Links	Koppelingen
 	Location: {path}	Locatie: {path}
-	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team en de WordCraft-bijdragers.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Uniphar Indústria Farmacêutica Team en de UniTexto-bijdragers.
 	Macros	Macro's
 	Mailings	Mailings
 	Manage Sources	Bronnen beheren
@@ -796,7 +796,7 @@
 	Word Right	Woord rechts
 	Word document (*.docx)	Word-document (*.docx)
 	WordArt	WordArt
-	WordCraft	WordCraft
+	UniTexto	UniTexto
 	Words	Woorden
 	Words only	Alleen woorden
 	Wrap Text	Tekstterugloop
@@ -864,7 +864,7 @@
 	Stopped	Gestopt
 	Speed	Snelheid
 	Normal speed	Normale snelheid
-	AutoSave documents you have saved in WordCraft	AutoSave voor documenten die je in WordCraft hebt opgeslagen
+	AutoSave documents you have saved in UniTexto	AutoSave voor documenten die je in UniTexto hebt opgeslagen
 	AutoSave failed: {error}. Save the document to turn AutoSave back on.	AutoSave is mislukt: {error}. Sla het document op om automatisch opslaan weer in te schakelen.
 	Couldn't download {name}: {error}	Kan {name} niet downloaden: {error}
 	Do you want to save changes to {name}?	Wil je de wijzigingen in {name} opslaan?
@@ -1086,7 +1086,7 @@
 	Glow Colors	Schijnselkleuren
 	Hide from style lists	Verbergen in stijlenlijsten
 	Indents and Spacing	Inspringen en afstand
-	Keep the password somewhere safe: without it nobody, WordCraft included, can open the document. Leave both boxes empty to remove the password.	Bewaar het wachtwoord op een veilige plek: zonder het kan niemand, ook WordCraft niet, het document openen. Laat beide vakjes leeg om het wachtwoord te verwijderen.
+	Keep the password somewhere safe: without it nobody, UniTexto included, can open the document. Leave both boxes empty to remove the password.	Bewaar het wachtwoord op een veilige plek: zonder het kan niemand, ook UniTexto niet, het document openen. Laat beide vakjes leeg om het wachtwoord te verwijderen.
 	Line breaking	Regeleinde
 	Linked style (paragraph and character)	Gekoppelde stijl (alinea en teken)
 	Manage Styles	Stijlen beheren
@@ -1704,7 +1704,7 @@
 	Beginning of Word	Begin van woord
 	Blue:	Blauw:
 	Border lines	Randlijnen
-	Browse in WordCraft…	Bladeren in WordCraft…
+	Browse in UniTexto…	Bladeren in UniTexto…
 	Building Block Gallery Content Control	Inhoudsbesturingselement galerij bouwstenen
 	Can't be deleted	Kan niet worden verwijderd
 	Capitalize first letter of sentences	De eerste letter van zinnen hoofdletter maken
@@ -1878,7 +1878,7 @@
 	Only comments can be added, except in regions marked editable.	Er kunnen alleen opmerkingen worden toegevoegd, behalve in gebieden die als bewerkbaar zijn gemarkeerd.
 	Only form fields can be filled in.	Alleen formuliervelden kunnen worden ingevuld.
 	Only the allowed styles can be applied.	Alleen de toegestane stijlen kunnen worden toegepast.
-	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Een bestand openen met de eigen browser van WordCraft wanneer het systeembestandsdialoogvenster niet verschijnt.
+	Open a file with UniTexto's own browser when the system file dialog doesn't appear.	Een bestand openen met de eigen browser van UniTexto wanneer het systeembestandsdialoogvenster niet verschijnt.
 	Ordinals (1st) as superscript	Ordinalen (1st) als superscript
 	Organizer	Organizer
 	Organizer…	Organizer…
@@ -2007,7 +2007,7 @@
 	The document is read only, except for regions marked editable.	Het document is alleen-lezen, behalve de gedeelten die als bewerkbaar zijn gemarkeerd.
 	The password is optional; without it anyone can stop the protection.	Het wachtwoord is optioneel; zonder wachtwoord kan iedereen de beveiliging opheffen.
 	The printer, two-sided printing and pages per sheet are chosen in that dialog.	De printer, dubbelzijdig afdrukken en pagina's per vel worden in dat dialoogvenster gekozen.
-	The system file dialog isn't available, so WordCraft shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	Het systeemvenster voor bestanden is niet beschikbaar, dus toont WordCraft het eigen venster. Installeer een portaal voor bestandskiezer (zoals xdg-desktop-portal-gtk) of zenity om het systeemvenster te krijgen.
+	The system file dialog isn't available, so UniTexto shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	Het systeemvenster voor bestanden is niet beschikbaar, dus toont UniTexto het eigen venster. Installeer een portaal voor bestandskiezer (zoals xdg-desktop-portal-gtk) of zenity om het systeemvenster te krijgen.
 	These marks show even when Show/Hide ¶ is off.	Deze tekens worden ook weergegeven als „¶ weergeven/verbergen” uit staat.
 	This document	Dit document
 	This folder can't be read: {error}	Kan deze map niet worden gelezen: {error}
@@ -2050,15 +2050,15 @@
 	Undo 1 Action	1 actie ongedaan maken
 	Undo {n} Actions	{n} acties ongedaan maken
 	Start-up	Opstarten
-	Show the Start screen when WordCraft starts	Het startscherm tonen wanneer WordCraft start
-	On: WordCraft opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Aan: WordCraft opent Bestand › Start met een leeg document, de sjablonen en je recente documenten. Uit: er wordt een leeg document geopend.
-	Couldn't make WordCraft the default: {error}	Kan WordCraft niet de standaardapp maken: {error}
-	In Default apps, choose WordCraft for the document types you want it to open.	Kies in Standaardapps WordCraft voor de documenttypen die je ermee wilt openen.
-	Make WordCraft the default for Word documents…	WordCraft de standaardapp maken voor Word-documenten…
-	Opens .docx, .doc, .rtf and .odt files and Word templates with WordCraft from now on.	Opent voortaan .docx-, .doc-, .rtf- en .odt-bestanden en Word-sjablonen met WordCraft.
-	Opens Settings › Default apps, where you choose WordCraft for .docx and the other document types.	Opent Instellingen › Standaardapps, waar je WordCraft kiest voor .docx en de andere documenttypen.
-	To open Word documents with WordCraft by default: select one in Finder, choose File › Get Info, pick WordCraft under Open with, then click Change All.	Om Word-documenten standaard met WordCraft te openen: selecteer er een in Finder, kies Bestand › Info, selecteer WordCraft bij Open met en klik daarna op Alles wijzigen.
-	WordCraft is now the default app for Word documents.	WordCraft is nu de standaardapp voor Word-documenten.
+	Show the Start screen when UniTexto starts	Het startscherm tonen wanneer UniTexto start
+	On: UniTexto opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Aan: UniTexto opent Bestand › Start met een leeg document, de sjablonen en je recente documenten. Uit: er wordt een leeg document geopend.
+	Couldn't make UniTexto the default: {error}	Kan UniTexto niet de standaardapp maken: {error}
+	In Default apps, choose UniTexto for the document types you want it to open.	Kies in Standaardapps UniTexto voor de documenttypen die je ermee wilt openen.
+	Make UniTexto the default for Word documents…	UniTexto de standaardapp maken voor Word-documenten…
+	Opens .docx, .doc, .rtf and .odt files and Word templates with UniTexto from now on.	Opent voortaan .docx-, .doc-, .rtf- en .odt-bestanden en Word-sjablonen met UniTexto.
+	Opens Settings › Default apps, where you choose UniTexto for .docx and the other document types.	Opent Instellingen › Standaardapps, waar je UniTexto kiest voor .docx en de andere documenttypen.
+	To open Word documents with UniTexto by default: select one in Finder, choose File › Get Info, pick UniTexto under Open with, then click Change All.	Om Word-documenten standaard met UniTexto te openen: selecteer er een in Finder, kies Bestand › Info, selecteer UniTexto bij Open met en klik daarna op Alles wijzigen.
+	UniTexto is now the default app for Word documents.	UniTexto is nu de standaardapp voor Word-documenten.
 	Numerals:	Cijfers:
 	Numerals	Cijfers
 	Hindi	Hindi
@@ -2447,7 +2447,7 @@ preview	Title	Titel
 	Hidden bookmarks	Verborgen bladwijzers
 	Sort by:	Sorteren op:
 	{language} (no dictionary)	{language} (geen woordenboek)
-	No spelling dictionary for {language} is installed, so it isn't checked. WordCraft looks for the Hunspell dictionary {name} in the WORDCRAFT_DICTIONARIES folder and in the usual system locations.	Er is geen spellingwoordenboek voor {language} geïnstalleerd, dus de spelling wordt niet gecontroleerd. WordCraft zoekt het Hunspell-woordenboek {name} in de map WORDCRAFT_DICTIONARIES en op de gebruikelijke systeemlocaties.
+	No spelling dictionary for {language} is installed, so it isn't checked. UniTexto looks for the Hunspell dictionary {name} in the WORDCRAFT_DICTIONARIES folder and in the usual system locations.	Er is geen spellingwoordenboek voor {language} geïnstalleerd, dus de spelling wordt niet gecontroleerd. UniTexto zoekt het Hunspell-woordenboek {name} in de map WORDCRAFT_DICTIONARIES en op de gebruikelijke systeemlocaties.
 	Narrow  {size} all	Smal  {size} rondom
 	Normal  {size} all	Normaal  {size} rondom
 	Type Character Code	Tekencode typen
@@ -2530,7 +2530,7 @@ preview	Title	Titel
 	{name}   {height} × {width} mm	{name}   {height} × {width} mm
 	{width} × {height} mm	{width} × {height} mm
 	{kind}, {columns} × {rows}, {size} ({paper})	{kind}, {columns} × {rows}, {size} ({paper})
-	Researcher needs an online service; WordCraft keeps your documents offline.	Onderzoeker heeft een onlinedienst nodig; WordCraft houdt je documenten offline.
+	Researcher needs an online service; UniTexto keeps your documents offline.	Onderzoeker heeft een onlinedienst nodig; UniTexto houdt je documenten offline.
 	These settings will be used for new documents.	Deze instellingen worden gebruikt voor nieuwe documenten.
 	can't split at the first row	kan niet splitsen op de eerste rij
 	select two or more cells to merge	selecteer twee of meer cellen om samen te voegen

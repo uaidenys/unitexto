@@ -4,12 +4,12 @@
 #              columns, and a trailing … in one needs one in the other.
 #   Lines starting with # and blank lines are ignored. A missing entry shows in English.
 #
-# Clean-room: written from the meaning of WordCraft's English labels in standard Danish.
+# Clean-room: written from the meaning of UniTexto's English labels in standard Danish.
 	(no suggestions)	(ingen forslag)
 	1.5 Line Spacing	1,5 Linjeafstand
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the ArtCraft team.	En gratis open source-tekstbehandler skrevet fra bunden i Rust.\nEn del af Crafting Apps fra ArtCraft-teamet.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	En gratis open source-tekstbehandler skrevet fra bunden i Rust.\nEn del af Crafting Apps fra Uniphar Indústria Farmacêutica-teamet.
 	About	Om
-	About WordCraft	Om WordCraft
+	About UniTexto	Om UniTexto
 	Accept	Acceptér
 	Accept All Changes	Acceptér alle ændringer
 	Accept This Change	Acceptér denne ændring
@@ -350,7 +350,7 @@
 	Inspect Styles at Selection	Kontrollér stile ved markering
 	Interface language:	Grænsefladesprog:
 	Italic	Kursiv
-	Join the ArtCraft community on Discord	Deltag i ArtCraft-fællesskabet på Discord
+	Join the Uniphar Indústria Farmacêutica community on Discord	Deltag i Uniphar Indústria Farmacêutica-fællesskabet på Discord
 	Join us on Discord: discord.gg/artcraft	Følg os på Discord: discord.gg/artcraft
 	Justify	Justér
 	Keep Lines Together	Hold linjer sammen
@@ -390,7 +390,7 @@
 	Link to Previous	Opret forbindelse til forrige
 	Links	Links
 	Location: {path}	Placering: {path}
-	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors.	MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team og WordCraft-bidragsyderne.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Uniphar Indústria Farmacêutica Team og UniTexto-bidragsyderne.
 	Macros	Makroer
 	Mailings	Post
 	Manage Sources	Administrer kilder
@@ -796,7 +796,7 @@
 	Word Right	Ord til højre
 	Word document (*.docx)	Word-dokument (*.docx)
 	WordArt	WordArt
-	WordCraft	WordCraft
+	UniTexto	UniTexto
 	Words	Ord
 	Words only	Kun ord
 	Wrap Text	Ombryd tekst
@@ -864,7 +864,7 @@
 	Stopped	Stoppet
 	Speed	Hastighed
 	Normal speed	Normal hastighed
-	AutoSave documents you have saved in WordCraft	Gem automatisk dokumenter, du har gemt i WordCraft
+	AutoSave documents you have saved in UniTexto	Gem automatisk dokumenter, du har gemt i UniTexto
 	AutoSave failed: {error}. Save the document to turn AutoSave back on.	AutoSave mislykkedes: {error}. Gem dokumentet for at slå AutoSave til igen.
 	Couldn't download {name}: {error}	Kunne ikke hente {name}: {error}
 	Do you want to save changes to {name}?	Vil du gemme ændringer i {name}?
@@ -1086,7 +1086,7 @@
 	Glow Colors	Glødfarver
 	Hide from style lists	Skjul i stilelister
 	Indents and Spacing	Indrykninger og afstand
-	Keep the password somewhere safe: without it nobody, WordCraft included, can open the document. Leave both boxes empty to remove the password.	Opbevar adgangskoden et sikkert sted: uden den kan ingen, heller ikke WordCraft, åbne dokumentet. Lad begge felter være tomme for at fjerne adgangskoden.
+	Keep the password somewhere safe: without it nobody, UniTexto included, can open the document. Leave both boxes empty to remove the password.	Opbevar adgangskoden et sikkert sted: uden den kan ingen, heller ikke UniTexto, åbne dokumentet. Lad begge felter være tomme for at fjerne adgangskoden.
 	Line breaking	Linjeskift
 	Linked style (paragraph and character)	Tilknyttet stil (afsnit og tegn)
 	Manage Styles	Administrer stile
@@ -1704,7 +1704,7 @@
 	Beginning of Word	Begyndelse af ord
 	Blue:	Blå:
 	Border lines	Kantlinjer
-	Browse in WordCraft…	Gennemse i WordCraft…
+	Browse in UniTexto…	Gennemse i UniTexto…
 	Building Block Gallery Content Control	Indholdskontrol til byggeblokgalleri
 	Can't be deleted	Kan ikke slettes
 	Capitalize first letter of sentences	Skriv første bogstav i sætninger med stort
@@ -1878,7 +1878,7 @@
 	Only comments can be added, except in regions marked editable.	Der kan kun tilføjes kommentarer, undtagen i områder, der er markeret til redigering.
 	Only form fields can be filled in.	Der kan kun udfyldes formularfelter.
 	Only the allowed styles can be applied.	Der kan kun anvendes tilladte stile.
-	Open a file with WordCraft's own browser when the system file dialog doesn't appear.	Åbn en fil i WordCrafts egen filbrowser, når systemets filedialog ikke vises.
+	Open a file with UniTexto's own browser when the system file dialog doesn't appear.	Åbn en fil i WordCrafts egen filbrowser, når systemets filedialog ikke vises.
 	Ordinals (1st) as superscript	Ordinaltal (1st) som hævet skrift
 	Organizer	Organisator
 	Organizer…	Organisator…
@@ -2007,7 +2007,7 @@
 	The document is read only, except for regions marked editable.	Dokumentet er skrivebeskyttet, undtagen områder, der er markeret som redigerbare.
 	The password is optional; without it anyone can stop the protection.	Adgangskoden er valgfri; uden den kan alle slå beskyttelsen fra.
 	The printer, two-sided printing and pages per sheet are chosen in that dialog.	Printer, dobbeltsidet udskrivning og sider pr. ark vælges i denne dialog.
-	The system file dialog isn't available, so WordCraft shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	Systemets fildialog er ikke tilgængelig, så WordCraft viser sin egen. Få systemets dialog ved at installere en filvælgerportal (f.eks. xdg-desktop-portal-gtk) eller zenity.
+	The system file dialog isn't available, so UniTexto shows its own. To get the system dialog, install a file chooser portal (such as xdg-desktop-portal-gtk) or zenity.	Systemets fildialog er ikke tilgængelig, så UniTexto viser sin egen. Få systemets dialog ved at installere en filvælgerportal (f.eks. xdg-desktop-portal-gtk) eller zenity.
 	These marks show even when Show/Hide ¶ is off.	Disse tegn vises, selv når Vis/skjul ¶ er slået fra.
 	This document	Dette dokument
 	This folder can't be read: {error}	Denne mappe kan ikke læses: {error}
@@ -2050,15 +2050,15 @@
 	Undo 1 Action	Fortryd 1 handling
 	Undo {n} Actions	Fortryd handlinger: {n}
 	Start-up	Opstart
-	Show the Start screen when WordCraft starts	Vis startskærmen, når WordCraft starter
-	On: WordCraft opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Til: WordCraft åbner på Filer › Start med et tomt dokument, skabeloner og dine seneste dokumenter. Fra: Der åbnes et tomt dokument.
-	Couldn't make WordCraft the default: {error}	Kunne ikke gøre WordCraft til standardprogram: {error}
-	In Default apps, choose WordCraft for the document types you want it to open.	I Standardapps vælger du WordCraft for de dokumenttyper, du vil have den til at åbne.
-	Make WordCraft the default for Word documents…	Gør WordCraft til standardprogram for Word-dokumenter…
-	Opens .docx, .doc, .rtf and .odt files and Word templates with WordCraft from now on.	Åbner .docx-, .doc-, .rtf- og .odt-filer samt Word-skabeloner med WordCraft fra nu af.
-	Opens Settings › Default apps, where you choose WordCraft for .docx and the other document types.	Åbner Indstillinger › Standardapps, hvor du vælger WordCraft til .docx og de andre dokumenttyper.
-	To open Word documents with WordCraft by default: select one in Finder, choose File › Get Info, pick WordCraft under Open with, then click Change All.	For at åbne Word-dokumenter med WordCraft som standard: vælg et i Finder, vælg Filer › Hent oplysninger, vælg WordCraft under Åbn med, og klik derefter på Skift alle.
-	WordCraft is now the default app for Word documents.	WordCraft er nu standardprogram for Word-dokumenter.
+	Show the Start screen when UniTexto starts	Vis startskærmen, når UniTexto starter
+	On: UniTexto opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Til: UniTexto åbner på Filer › Start med et tomt dokument, skabeloner og dine seneste dokumenter. Fra: Der åbnes et tomt dokument.
+	Couldn't make UniTexto the default: {error}	Kunne ikke gøre UniTexto til standardprogram: {error}
+	In Default apps, choose UniTexto for the document types you want it to open.	I Standardapps vælger du UniTexto for de dokumenttyper, du vil have den til at åbne.
+	Make UniTexto the default for Word documents…	Gør UniTexto til standardprogram for Word-dokumenter…
+	Opens .docx, .doc, .rtf and .odt files and Word templates with UniTexto from now on.	Åbner .docx-, .doc-, .rtf- og .odt-filer samt Word-skabeloner med UniTexto fra nu af.
+	Opens Settings › Default apps, where you choose UniTexto for .docx and the other document types.	Åbner Indstillinger › Standardapps, hvor du vælger UniTexto til .docx og de andre dokumenttyper.
+	To open Word documents with UniTexto by default: select one in Finder, choose File › Get Info, pick UniTexto under Open with, then click Change All.	For at åbne Word-dokumenter med UniTexto som standard: vælg et i Finder, vælg Filer › Hent oplysninger, vælg UniTexto under Åbn med, og klik derefter på Skift alle.
+	UniTexto is now the default app for Word documents.	UniTexto er nu standardprogram for Word-dokumenter.
 	Numerals:	Tal:
 	Numerals	Tal
 	Hindi	Hindi
@@ -2447,7 +2447,7 @@ preview	Title	Titel
 	Hidden bookmarks	Skjulte bogmærker
 	Sort by:	Sortér efter:
 	{language} (no dictionary)	{language} (ingen ordbog)
-	No spelling dictionary for {language} is installed, so it isn't checked. WordCraft looks for the Hunspell dictionary {name} in the WORDCRAFT_DICTIONARIES folder and in the usual system locations.	Der er ikke installeret nogen staveordbog til {language}, så den bliver ikke kontrolleret. WordCraft leder efter Hunspell-ordbogen {name} i mappen WORDCRAFT_DICTIONARIES og på de sædvanlige systemplaceringer.
+	No spelling dictionary for {language} is installed, so it isn't checked. UniTexto looks for the Hunspell dictionary {name} in the WORDCRAFT_DICTIONARIES folder and in the usual system locations.	Der er ikke installeret nogen staveordbog til {language}, så den bliver ikke kontrolleret. UniTexto leder efter Hunspell-ordbogen {name} i mappen WORDCRAFT_DICTIONARIES og på de sædvanlige systemplaceringer.
 	Narrow  {size} all	Smal  {size} på alle sider
 	Normal  {size} all	Normal  {size} på alle sider
 	Type Character Code	Angiv tegnkode
@@ -2530,7 +2530,7 @@ preview	Title	Titel
 	{name}   {height} × {width} mm	{name}   {height} × {width} mm
 	{width} × {height} mm	{width} × {height} mm
 	{kind}, {columns} × {rows}, {size} ({paper})	{kind}, {columns} × {rows}, {size} ({paper})
-	Researcher needs an online service; WordCraft keeps your documents offline.	Researcher kræver en onlinetjeneste; WordCraft holder dine dokumenter offline.
+	Researcher needs an online service; UniTexto keeps your documents offline.	Researcher kræver en onlinetjeneste; UniTexto holder dine dokumenter offline.
 	These settings will be used for new documents.	Disse indstillinger bruges til nye dokumenter.
 	can't split at the first row	kan ikke opdele ved den første række
 	select two or more cells to merge	markér to eller flere celler, der skal flettes

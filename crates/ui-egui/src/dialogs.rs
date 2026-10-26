@@ -1293,7 +1293,7 @@ impl Dialog {
         })
     }
 
-    /// Paste Special for a clipboard payload (`text`, `html`, `rtf`; empty = WordCraft's own copy).
+    /// Paste Special for a clipboard payload (`text`, `html`, `rtf`; empty = UniTexto's own copy).
     pub fn paste_special(app: &WordApp, payload: &Value) -> Dialog {
         let formats: Vec<String> = wordcraft_engine::cmd::paste::available(&app.session, payload).into_iter().map(str::to_string).collect();
         let mut kept = json!({});
@@ -1439,8 +1439,8 @@ pub fn show(app: &mut WordApp, ctx: &egui::Context) {
         Dialog::Refs(d) => d.title(),
         Dialog::Icons { .. } => "Icons",
         Dialog::PasteSpecial { .. } => "Paste Special",
-        Dialog::About { .. } => "About WordCraft",
-        Dialog::SaveChanges { .. } => "WordCraft",
+        Dialog::About { .. } => "About UniTexto",
+        Dialog::SaveChanges { .. } => "UniTexto",
         Dialog::DiscardRecovery { .. } => "Discard recovery copy",
         Dialog::RecipientList { .. } => "Recipient List",
         Dialog::SelectTable { .. } => "Select Table",
@@ -2687,11 +2687,11 @@ fn body(app: &mut WordApp, ui: &mut Ui, d: &mut Dialog) -> bool {
                 1 => crate::credits::contributors_ui(ui),
                 2 => crate::credits::models_ui(ui),
                 _ => {
-                    ui.label(egui::RichText::new(tl!("WordCraft")).font(semibold(22.0)));
+                    ui.label(egui::RichText::new(tl!("UniTexto")).font(semibold(22.0)));
                     let build = option_env!("WORDCRAFT_BUILD_SHA").map(|s| s.get(..8).unwrap_or(s)).unwrap_or(tl!("development build"));
                     ui.label(crate::i18n::fmt(tl!("Version {version} ({build})"), &[("version", env!("CARGO_PKG_VERSION")), ("build", build)]));
                     ui.label(tl!(
-                        "A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the ArtCraft team."
+                        "A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team."
                     ));
                     ui.add_space(6.0);
                     ui.hyperlink_to(tl!("getartcraft.com/apps/wordcraft"), "https://getartcraft.com/apps/wordcraft");
@@ -2699,7 +2699,7 @@ fn body(app: &mut WordApp, ui: &mut Ui, d: &mut Dialog) -> bool {
                     ui.hyperlink_to(tl!("Source code: github.com/storytold/wordcraft"), "https://github.com/storytold/wordcraft");
                     ui.add_space(6.0);
                     ui.label(
-                        egui::RichText::new(tl!("MIT OR Apache-2.0. Copyright (c) 2026 ArtCraft Team and the WordCraft contributors."))
+                        egui::RichText::new(tl!("MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira."))
                             .small()
                             .weak(),
                     );
@@ -2856,7 +2856,7 @@ fn body(app: &mut WordApp, ui: &mut Ui, d: &mut Dialog) -> bool {
             });
             ui.label(
                 egui::RichText::new(tl!(
-                    "Keep the password somewhere safe: without it nobody, WordCraft included, can open the document. Leave both boxes empty to remove the password."
+                    "Keep the password somewhere safe: without it nobody, UniTexto included, can open the document. Leave both boxes empty to remove the password."
                 ))
                 .small()
                 .weak(),

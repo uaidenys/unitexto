@@ -1,20 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <title>WordCraft</title>
+  <title>UniTexto</title>
   <link data-trunk rel="icon" href="../../assets/app-icon/wordcraft.ico" />
   <link data-trunk rel="rust" data-bin="wordcraft-web" data-wasm-opt="z" data-weak-refs />
   <style>
-    html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #e6e6e6; }
+    :root {
+      --b-900: #1b2a44;
+      --b-700: #395886;
+      --b-500: #628ecb;
+      --b-400: #8aaee0;
+      --b-300: #b1c9ef;
+      --b-200: #d5deef;
+      --b-100: #f0f3fa;
+    }
+    html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: var(--b-200); }
     #wordcraft_canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
-    #wordcraft_loading { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
-      color: #555; font: 14px system-ui, sans-serif; pointer-events: none; }
+    /* Only shows if the app fails to start (the splash covers the normal load). */
+    #wordcraft_loading { position: absolute; inset: 0; z-index: 1001; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      color: var(--b-900); font: 14px system-ui, sans-serif; pointer-events: none; }
+    #wordcraft_loading:empty { display: none; }
+
+    /* ---------- Abertura ----------
+       1) pontos coloridos giram e se espalham; 2) cada ponto vira uma faixa do ícone (efeito mola);
+       3) o fundo e o "W" entram; 4) o ícone desliza e o nome "Uni Word" sai de trás dele. */
+    .splash {
+      position: fixed; inset: 0; z-index: 1000;
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px;
+      background: var(--b-700); color: var(--b-100);
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      cursor: pointer;
+      transition: opacity 0.7s ease, visibility 0.7s ease;
+    }
+    .splash.is-hidden { opacity: 0; visibility: hidden; }
+    .splash__row { display: flex; align-items: center; gap: 18px; animation: splash-slide 0.36s 1.29s cubic-bezier(0.3, 0.8, 0.2, 1) both; }
+    .splash__icon { flex: none; width: clamp(96px, 18vw, 150px); height: auto; overflow: visible; }
+    .splash__name {
+      font-size: clamp(36px, 7vw, 60px); font-weight: 400; white-space: nowrap; color: var(--b-100);
+      clip-path: inset(0 100% 0 0);
+      animation: splash-reveal 0.39s 1.32s cubic-bezier(0.3, 0.8, 0.2, 1) forwards;
+    }
+    .splash__name b { font-weight: 700; color: var(--b-300); }
+    .splash__tagline {
+      font-size: clamp(11px, 1.6vw, 13px); letter-spacing: 0.26em; color: var(--b-300); text-align: center;
+      opacity: 0; animation: splash-up 0.3s 1.62s ease forwards;
+    }
+    .splash__bar {
+      width: 160px; height: 3px; border-radius: 2px; background: rgba(240, 243, 250, 0.2); overflow: hidden;
+      opacity: 0; animation: splash-up 0.24s 1.74s ease forwards;
+    }
+    .splash__bar span {
+      display: block; height: 100%; width: 40%; background: var(--b-100); border-radius: 2px;
+      animation: splash-load 0.66s 1.74s ease-in-out infinite;
+    }
+    .splash__piece, .splash__dot, .splash__tile, .splash__w { transform-box: fill-box; transform-origin: center; }
+    .splash__orbit { transform-box: view-box; transform-origin: 122px 122px; animation: splash-spin 0.66s cubic-bezier(0.4, 0, 0.2, 1) both; }
+    .splash__dot { animation: splash-gather 0.6s var(--d) cubic-bezier(0.3, 0.9, 0.3, 1) both, splash-vanish 0.15s var(--v) forwards; }
+    .splash__piece { animation: splash-grow 0.33s var(--d) cubic-bezier(0.2, 1.4, 0.4, 1) both; }
+    .splash__tile { animation: splash-tile 0.3s 0.87s cubic-bezier(0.2, 0.9, 0.3, 1.1) both; }
+    .splash__shadow { animation: splash-fade 0.24s 0.96s both; }
+    .splash__w { animation: splash-w 0.21s 1.05s cubic-bezier(0.2, 1.5, 0.4, 1) both; }
+    @keyframes splash-spin { from { transform: rotate(-200deg) scale(0.6); } to { transform: none; } }
+    @keyframes splash-gather {
+      0% { opacity: 0; transform: translate(var(--dx), var(--dy)) scale(0.2); }
+      35% { opacity: 1; transform: translate(var(--dx), var(--dy)) scale(1); }
+      100% { opacity: 1; transform: none; }
+    }
+    @keyframes splash-vanish { to { opacity: 0; transform: scale(0.2); } }
+    @keyframes splash-grow { from { opacity: 0; transform: scale(0.12); } to { opacity: 1; transform: none; } }
+    @keyframes splash-tile { from { opacity: 0; transform: scale(0.7); } to { opacity: 1; transform: none; } }
+    @keyframes splash-fade { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes splash-w { from { opacity: 0; transform: scale(0.1) rotate(-90deg); } to { opacity: 1; transform: none; } }
+    /* --splash-offset: metade da largura do nome (o ícone começa centralizado). */
+    @keyframes splash-slide { from { transform: translateX(var(--splash-offset, 0px)); } to { transform: none; } }
+    @keyframes splash-reveal { to { clip-path: inset(0 0 0 0); } }
+    @keyframes splash-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    @keyframes splash-load { from { transform: translateX(-100%); } to { transform: translateX(260%); } }
+    @media (prefers-reduced-motion: reduce) {
+      .splash *, .splash *::before, .splash *::after {
+        animation-duration: 0.01ms !important; animation-delay: 0s !important; animation-iteration-count: 1 !important;
+      }
+    }
   </style>
 </head>
 <body>
   <canvas id="wordcraft_canvas"></canvas>
-  <div id="wordcraft_loading">Loading WordCraft&hellip;</div>
+  <div id="wordcraft_loading"></div>
+
+  <!-- Abertura: pontos coloridos giram, viram as faixas do ícone e o nome sai de trás dele. -->
+  <div id="splash" class="splash" role="status" aria-label="Carregando UniTexto">
+    <div class="splash__row">
+      <svg class="splash__icon" viewBox="0 0 245.04 244.74" aria-hidden="true">
+        <defs>
+          <linearGradient id="splash-tile" x1="-36.88" y1="18.67" x2="254" y2="208.16" gradientUnits="userSpaceOnUse">
+            <stop offset="0.14" stop-color="#f0f3fb" /><stop offset="0.26" stop-color="#dce6f6" /><stop offset="0.44" stop-color="#c5d5ef" /><stop offset="0.61" stop-color="#b6cbeb" /><stop offset="0.75" stop-color="#b1c8ea" /><stop offset="0.92" stop-color="#8caedc" />
+          </linearGradient>
+        </defs>
+        <path class="splash__tile" fill="url(#splash-tile)" d="M189.78,226.9h0a217.42,217.42,0,0,1-134.52,0h0a57.9,57.9,0,0,1-37.13-37.13h0a217.42,217.42,0,0,1,0-134.52h0A57.9,57.9,0,0,1,55.26,18.12h0a217.42,217.42,0,0,1,134.52,0h0a57.9,57.9,0,0,1,37.13,37.13h0a217.42,217.42,0,0,1,0,134.52h0A57.9,57.9,0,0,1,189.78,226.9Z" />
+        <path class="splash__piece" style="--d: 0.63s" fill="#b1c8ea" d="M199.91,50.57V83.23H71.9V50.57a5.22,5.22,0,0,1,5.21-5.230H194.7A5.22,5.22,0,0,1,199.91,50.57Z" />
+        <rect class="splash__piece" style="--d: 0.66s" fill="#8caedc" x="71.92" y="83.23" width="127.99" height="37.89" />
+        <rect class="splash__piece" style="--d: 0.69s" fill="#628ec9" x="71.92" y="121.13" width="127.99" height="37.87" />
+        <path class="splash__piece" style="--d: 0.72s" fill="#3a5987" d="M199.93,159v35.47a5.22,5.22,0,0,1-5.21,5.21H77.13a5.22,5.22,0,0,1-5.21-5.21V159Z" />
+        <path class="splash__shadow" fill="#060606" fill-opacity="0.2" d="M116.84,85.23H71.92V175h44.92a7.370,7.370,0,0,0,7.34-7.35v-75a7.37,7.37,0,0,0-7.34-7.35Z" />
+        <path class="splash__piece" style="--d: 0.81s" fill="#3a5987" d="M118.67,87.07v70.87a4.7,4.7,0,0,1-.1,1.06,7.32,7.32,0,0,1-7.24,6.27H40.44a8,8,0,0,1-1.1-.09c-.18,0-.34-.06-.53-.1a7.32,7.32,0,0,1-5.7-7.14V87.07a7.33,7.33,0,0,1,7.33-7.34h70.89a7.28,7.28,0,0,1,6.22,3.5,7,7,0,0,1,.91,2.19h0A8.1,8.1,0,0,1,118.67,87.07Z" />
+        <path class="splash__w" fill="#fff" d="M109.74,98.49l-12.69,48h-12l-8-30.81a25.890,25.89,0,0,1-.77-5.39h-.13a32.44,32.44,0,0,1-.87,5.39l-8.17,30.81H54.66L42,98.49H53.86l6.76,32a38.93,38.93,0,0,1,.64,5.49h.2a26.43,26.43,0,0,1,1-5.62l8.7-31.85H82.72l7.87,32.25a40.64,40.64,0,0,1,.77,5.15h.13a34.45,34.45,0,0,1,.71-5.35l6.63-32Z" />
+        <g class="splash__orbit">
+          <circle class="splash__dot" cx="136" cy="64" r="11" fill="#b1c8ea" style="--dx: -14px; --dy: 58px; --d: 0s; --v: 0.63s" />
+          <circle class="splash__dot" cx="136" cy="102" r="11" fill="#8caedc" style="--dx: -14px; --dy: 20px; --d: 0.03s; --v: 0.66s" />
+          <circle class="splash__dot" cx="136" cy="140" r="11" fill="#628ec9" style="--dx: -14px; --dy: -18px; --d: 0.06s; --v: 0.69s" />
+          <circle class="splash__dot" cx="136" cy="178" r="11" fill="#3a5987" style="--dx: -14px; --dy: -56px; --d: 0.09s; --v: 0.72s" />
+          <circle class="splash__dot" cx="176" cy="122" r="11" fill="#8aaee0" style="--dx: -54px; --dy: 0px; --d: 0.12s; --v: 0.75s" />
+          <circle class="splash__dot" cx="76" cy="122" r="11" fill="#3a5987" style="--dx: 46px; --dy: 0px; --d: 0.15s; --v: 0.81s" />
+        </g>
+      </svg>
+      <div class="splash__name">Uni<b>Word</b></div>
+    </div>
+    <div class="splash__tagline">UNIPHAR · INDÚSTRIA FARMACÊUTICA</div>
+    <div class="splash__bar"><span></span></div>
+  </div>
+
+  <script>
+    // Abertura do UniTexto: a animação é toda em CSS; aqui só centralizamos o ícone no começo e
+    // fechamos a abertura quando o editor estiver pronto (respeitando o tempo da animação) ou num clique.
+    (function () {
+      var MIN_DURATION_MS = 2200;
+      var splash = document.getElementById('splash');
+      var row = splash.querySelector('.splash__row');
+      var name = splash.querySelector('.splash__name');
+      function centerIcon() {
+        var gap = parseFloat(getComputedStyle(row).columnGap) || 0;
+        row.style.setProperty('--splash-offset', (name.scrollWidth + gap) / 2 + 'px');
+      }
+      centerIcon();
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(centerIcon);
+
+      var started = performance.now();
+      var closed = false;
+      function close() {
+        if (closed) return;
+        closed = true;
+        splash.classList.add('is-hidden');
+        splash.addEventListener('transitionend', function () { splash.remove(); }, { once: true });
+      }
+      splash.addEventListener('click', close);
+
+      // The app removes #wordcraft_loading once it's running, or fills it with an error.
+      var loading = document.getElementById('wordcraft_loading');
+      new MutationObserver(function (_, obs) {
+        if (!document.body.contains(loading) || loading.textContent.trim()) {
+          obs.disconnect();
+          setTimeout(close, Math.max(0, MIN_DURATION_MS - (performance.now() - started)));
+        }
+      }).observe(document.body, { childList: true, subtree: true, characterData: true });
+    })();
+  </script>
 </body>
 </html>

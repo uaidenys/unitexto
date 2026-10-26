@@ -90,12 +90,12 @@ fn reading_toolbar(app: &mut WordApp, ui: &mut Ui, t: Tokens) {
         });
 }
 
-/// Whether the selection is a SmartArt graphic WordCraft can edit (so SmartArt Design is shown).
+/// Whether the selection is a SmartArt graphic UniTexto can edit (so SmartArt Design is shown).
 pub fn has_smart_art_selected(s: &wordcraft_engine::Session) -> bool {
     wordcraft_engine::cmd::smart_art::selected_smart_art(s).is_some()
 }
 
-/// Whether the selection is a chart WordCraft can edit (so Chart Design is shown).
+/// Whether the selection is a chart UniTexto can edit (so Chart Design is shown).
 pub fn has_chart_selected(s: &wordcraft_engine::Session) -> bool {
     wordcraft_engine::cmd::chart::selected_chart(s).is_some()
 }
@@ -789,7 +789,7 @@ pub(crate) const PROOFING_LANGUAGES: [(&str, &str); 12] = [
     ("id-ID", "Indonesian"),
 ];
 
-/// The English name of a proofing language tag, as the status bar shows it (no tag: WordCraft's
+/// The English name of a proofing language tag, as the status bar shows it (no tag: UniTexto's
 /// default, US English): a listed language by its name; another region of one by the language
 /// and the region ("French (Canada)"); a bare language subtag by its usual variant; else the tag.
 pub(crate) fn language_name(tag: Option<&str>) -> String {
@@ -817,7 +817,7 @@ pub(crate) fn language_name(tag: Option<&str>) -> String {
                 None => tag.to_string(),
             }
         }
-        // A bare language subtag ("pt", "pl"): the variant WordCraft proofs.
+        // A bare language subtag ("pt", "pl"): the variant UniTexto proofs.
         None => match wordcraft_engine::proof::ProofLang::from_tag(Some(tag)) {
             wordcraft_engine::proof::ProofLang::Pl => "Polish".into(),
             wordcraft_engine::proof::ProofLang::Hr => "Croatian".into(),
@@ -3244,7 +3244,7 @@ mod tests {
         assert_eq!(c.listed, PROOFING_LANGUAGES.map(|(t, _)| t == "pt-BR"));
     }
 
-    /// The Englishes WordCraft proofs differently are in the menu, checked by their tags, and
+    /// The Englishes UniTexto proofs differently are in the menu, checked by their tags, and
     /// every English region has a name (#1281, #1045).
     #[test]
     fn english_dialects_are_in_the_language_menu() {
