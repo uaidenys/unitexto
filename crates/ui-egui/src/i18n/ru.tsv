@@ -15,7 +15,7 @@
 
 	(no suggestions)	(нет вариантов)
 	1.5 Line Spacing	Полуторный интервал
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Бесплатный текстовый процессор с открытым исходным кодом, написанный с нуля на Rust.\nВходит в Crafting Apps от команды Uniphar Indústria Farmacêutica.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Бесплатный текстовый процессор с открытым исходным кодом, написанный с нуля на Rust.\nВходит в семейство приложений Uni от Uniphar Indústria Farmacêutica.
 	AaBbCcDd	АаБбВвГг
 	About	О программе
 	About UniTexto	О UniTexto
@@ -445,7 +445,7 @@
 	Merge Formatting	Объединить форматирование
 	Merged PRs	Принятые PR
 	Mirrored	Зеркальные
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Uniphar Indústria Farmacêutica Team и участники проекта UniTexto.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	Moderate	Средние
 	Modify Style	Изменить стиль
 	Modify…	Изменить…
@@ -701,7 +701,7 @@
 	Small caps	Малые прописные
 	SmartArt	SmartArt
 	Sort	Сортировка
-	Source code: github.com/storytold/wordcraft	Исходный код: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Исходный код: github.com/uaidenys/unitexto
 	Space before/after:	Интервал перед/после:
 	Spacing	Интервал
 	Spacing (pt):	Интервал (пт):
@@ -1115,7 +1115,7 @@ preview	Title	Пример
 	Insert a new equation (Alt+=)	Вставить новое уравнение (Alt+=)
 	Leave the equation (Esc)	Выйти из уравнения (Esc)
 	Preview	Предварительный просмотр
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	Browse…	Обзор…
 
 # Equation gallery, themes, watermarks, paper sizes, table styles and other strings the

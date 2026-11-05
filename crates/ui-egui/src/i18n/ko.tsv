@@ -3,7 +3,7 @@
 	(no style)	(스타일 없음)
 	(no suggestions)	(제안 없음)
 	1.5 Line Spacing	1.5줄 간격
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Rust로 처음부터 새로 만든 무료 오픈 소스 워드 프로세서입니다.\nArtCraft 팀의 Crafting Apps 제품군에 속합니다.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Rust로 처음부터 새로 만든 무료 오픈 소스 워드 프로세서입니다.\nUniphar Indústria Farmacêutica의 Uni 앱 제품군에 속합니다.
 	About	정보
 	About UniTexto	UniTexto 정보
 	Accept	수락
@@ -843,7 +843,7 @@
 	Small caps	작은 대문자
 	SmartArt	SmartArt
 	Sort	정렬
-	Source code: github.com/storytold/wordcraft	소스 코드: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	소스 코드: github.com/uaidenys/unitexto
 	Space	공백
 	Space before/after:	앞/뒤 간격:
 	Spacing	간격
@@ -1223,7 +1223,7 @@
 	Insert a new equation (Alt+=)	새 수식 삽입 (Alt+=)
 	Leave the equation (Esc)	수식 종료 (Esc)
 	Preview	미리 보기
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	Draw Ink	잉크 그리기
 	Erase Ink	잉크 지우기
 	Hide Ink	잉크 숨기기

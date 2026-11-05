@@ -12,7 +12,7 @@
 	(no style)	(Aucun style)
 	(no suggestions)	(aucune suggestion)
 	1.5 Line Spacing	Interligne 1,5
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Un traitement de texte gratuit et open source, écrit de zéro en Rust.\nPartie de la suite Crafting Apps de l’équipe Uniphar Indústria Farmacêutica.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Un traitement de texte gratuit et open source, écrit de zéro en Rust.\nFait partie des apps Uni d’Uniphar Indústria Farmacêutica.
 	About	À propos
 	About UniTexto	À propos de UniTexto
 	Accept	Accepter
@@ -527,7 +527,7 @@
 	Merge Formatting	Fusionner la mise en forme
 	Merged PRs	PR fusionnées
 	Mirrored	Miroir
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Uniphar Indústria Farmacêutica Team et les contributeurs de UniTexto.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	Moderate	Modérées
 	Modify Style	Modifier le style
 	Modify…	Modifier…
@@ -801,7 +801,7 @@
 	Small caps	Petites majuscules
 	SmartArt	SmartArt
 	Sort	Trier
-	Source code: github.com/storytold/wordcraft	Code source : github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Code source : github.com/uaidenys/unitexto
 	Space	Espace
 	Space before/after:	Espacement avant/après :
 	Spacing	Espacement
@@ -1167,7 +1167,7 @@
 	Insert a new equation (Alt+=)	Insérer une nouvelle équation (Alt+=)
 	Leave the equation (Esc)	Quitter l’équation (Esc)
 	Preview	Aperçu
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	Draw Ink	Dessiner à l’encre
 	Erase Ink	Effacer l’encre
 	Hide Ink	Masquer l’encre

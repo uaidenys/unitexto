@@ -17,7 +17,7 @@
 	(no style)	(nessuno stile)
 	(no suggestions)	(nessun suggerimento)
 	1.5 Line Spacing	Interlinea 1,5
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Un elaboratore di testi gratuito e open source, scritto da zero in Rust.\nFa parte delle Crafting Apps del team Uniphar Indústria Farmacêutica.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Un elaboratore di testi gratuito e open source, scritto da zero in Rust.\nParte delle app Uni di Uniphar Indústria Farmacêutica.
 	About	Informazioni
 	About UniTexto	Informazioni su UniTexto
 	Accept	Accetta
@@ -494,7 +494,7 @@
 	Link to Previous	Collega al precedente
 	Links	Collegamenti
 	Location: {path}	Percorso: {path}
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Uniphar Indústria Farmacêutica Team e i collaboratori di UniTexto.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	Macros	Macro
 	Mailings	Lettere
 	Manage Sources	Gestisci fonti
@@ -781,7 +781,7 @@
 	Small caps	Maiuscoletto
 	SmartArt	SmartArt
 	Sort	Ordina
-	Source code: github.com/storytold/wordcraft	Codice sorgente: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Codice sorgente: github.com/uaidenys/unitexto
 	Space	Spazio
 	Space before/after:	Spazio prima/dopo:
 	Spacing	Spaziatura
@@ -1157,7 +1157,7 @@
 	Insert a new equation (Alt+=)	Inserisci una nuova equazione (Alt+=)
 	Leave the equation (Esc)	Esci dall'equazione (Esc)
 	Preview	Anteprima
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	Draw Ink	Disegna a penna
 	Erase Ink	Cancella input penna
 	Hide Ink	Nascondi input penna

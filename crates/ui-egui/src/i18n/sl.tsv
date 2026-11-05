@@ -51,7 +51,7 @@
 	<< Less	<< Manj
 	<< Remove	<< Odstrani
 	A file dialog is already open.	Pogovorno okno za datoteke je že odprto.
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Brezplačen odprtokodni urejevalnik besedil, iz nič napisan v jeziku Rust.\nDel zbirke Crafting Apps ekipe Uniphar Indústria Farmacêutica.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Brezplačen odprtokodni urejevalnik besedil, iz nič napisan v jeziku Rust.\nDel aplikacij Uni podjetja Uniphar Indústria Farmacêutica.
 	A mail merge field	Polje spajanja dokumentov
 	A numbered sequence (figures, tables…)	Oštevilčeno zaporedje (slike, tabele …)
 	A password is required to open this document.	Za odpiranje tega dokumenta je potrebno geslo.
@@ -966,7 +966,7 @@
 	General	Splošno
 	Geometry	Geometrija
 	German (Germany)	Nemščina (Nemčija)
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	Glow	Sij
 	Glow Colors	Barve sija
 	Go Back	Nazaj
@@ -1409,7 +1409,7 @@
 	Mirror indents	Zrcalni zamiki
 	Mirror margins	Zrcalni robovi
 	Mirrored	Zrcalno
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Uniphar Indústria Farmacêutica Team in sodelavci projekta UniTexto.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	MLA	MLA
 	Model	Model
 	Models	Modeli
@@ -1599,7 +1599,7 @@
 	Only the allowed styles can be applied.	Uporabiti je mogoče samo dovoljene sloge.
 	Only web (http, https) and email (mailto) links can be followed	Slediti je mogoče samo spletnim (http, https) in e-poštnim (mailto) povezavam
 	Open	Odpri
-	Open a file with UniTexto's own browser when the system file dialog doesn't appear.	Odpri datoteko z WordCraftovim brskalnikom, kadar se sistemsko pogovorno okno ne prikaže.
+	Open a file with UniTexto's own browser when the system file dialog doesn't appear.	Odpri datoteko z lastnim brskalnikom programa UniTexto, kadar se sistemsko pogovorno okno ne prikaže.
 	OpenDocument Text (*.odt)	Besedilo OpenDocument (*.odt)
 	Opening print dialog…	Odpiranje pogovornega okna za tiskanje …
 	Opens .docx, .doc, .rtf and .odt files and Word templates with UniTexto from now on.	Odslej odpira datoteke .docx, .doc, .rtf in .odt ter predloge Word s programom UniTexto.
@@ -2166,7 +2166,7 @@
 	Sort by:	Razvrsti po:
 	Sort order:	Vrstni red razvrščanja:
 	Sort Recipients	Razvrsti prejemnike
-	Source code: github.com/storytold/wordcraft	Izvorna koda: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Izvorna koda: github.com/uaidenys/unitexto
 	Source Manager	Upravitelj virov
 	Source type:	Vrsta vira:
 	Sources in this document:	Viri v tem dokumentu:

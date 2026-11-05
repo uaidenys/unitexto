@@ -14,7 +14,7 @@
 	(no style)	(keine Formatvorlage)
 	(no suggestions)	(keine Vorschläge)
 	1.5 Line Spacing	Zeilenabstand 1,5
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Ein kostenloses, quelloffenes Textverarbeitungsprogramm, von Grund auf in Rust geschrieben.\nTeil der Crafting Apps des Uniphar Indústria Farmacêutica-Teams.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Ein kostenloses, quelloffenes Textverarbeitungsprogramm, von Grund auf in Rust geschrieben.\nTeil der Uni-Apps von Uniphar Indústria Farmacêutica.
 	About	Info
 	About UniTexto	Über UniTexto
 	Accept	Annehmen
@@ -767,7 +767,7 @@
 	Small caps	Kapitälchen
 	SmartArt	SmartArt
 	Sort	Sortieren
-	Source code: github.com/storytold/wordcraft	Quellcode: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Quellcode: github.com/uaidenys/unitexto
 	Space	Leerzeichen
 	Space before/after:	Abstand vor/nach:
 	Spacing	Abstand
@@ -1151,7 +1151,7 @@
 	Insert a new equation (Alt+=)	Eine neue Formel einfügen (Alt+=)
 	Leave the equation (Esc)	Die Formel verlassen (Esc)
 	Preview	Vorschau
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	Draw Ink	Freihand zeichnen
 	Erase Ink	Freihand radieren
 	Hide Ink	Freihand ausblenden

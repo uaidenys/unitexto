@@ -21,6 +21,7 @@ mod graphics;
 mod logging;
 mod print;
 mod region;
+mod splash;
 #[cfg(target_os = "macos")]
 mod traffic_lights;
 
@@ -32,19 +33,21 @@ use wordcraft_ui_egui::{
 
 /// The app, the restored window geometry (or, with none, the default: no position) until the
 /// first frame that knows the monitor has checked it, the control server's key file (removed on
-/// exit), the file dialogs the app asked for and, on macOS, the documents opened from Finder.
+/// exit), the file dialogs the app asked for, the opening animation and, on macOS, the documents
+/// opened from Finder.
 struct App(
     WordApp,
     Option<WindowGeometry>,
     Option<control_server::KeyFile>,
     file_dialogs::Launcher,
+    splash::Splash,
     #[cfg(target_os = "macos")] fmv_macos_events::Inbox,
 );
 
 impl eframe::App for App {
     fn logic(&mut self, ctx: &egui::Context, frame: &mut eframe::Frame) {
         #[cfg(target_os = "macos")]
-        apple_events::poll(&self.4, &mut self.0, ctx);
+        apple_events::poll(&self.5, &mut self.0, ctx);
         self.0.logic(ctx);
         self.3.show(frame);
         // A window that doesn't fit on its screen (the default size on a laptop) shrinks to fit
@@ -89,6 +92,7 @@ impl eframe::App for App {
         self.0.raw_input_hook(raw);
     }
     fn ui(&mut self, ui: &mut egui::Ui, frame: &mut eframe::Frame) {
+        self.4.show(ui);
         self.0.ui(ui);
         self.3.show(frame);
     }
@@ -474,12 +478,17 @@ fn main() -> eframe::Result {
             for f in other_files {
                 open_non_unicode(&mut app, &f);
             }
+            // The opening animation, still when the system has animation effects off; none when an
+            // agent drives the app (`--control`) or UNI_NO_SPLASH is set.
+            let still = animations::hook(&cc.egui_ctx)() == Some(false);
+            let skip = control_port.is_some() || std::env::var_os("UNI_NO_SPLASH").is_some();
             Ok(Box::new(App(
                 app,
                 // With nothing restored, the window the system placed is checked all the same.
                 Some(restored.unwrap_or_default()),
                 key_file,
                 dialogs,
+                splash::Splash::new(still, skip),
                 #[cfg(target_os = "macos")]
                 apple_events.connect(&cc.egui_ctx),
             )))

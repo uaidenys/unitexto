@@ -4,7 +4,7 @@
 	(no style)	（無樣式）
 	(no suggestions)	（無建議）
 	1.5 Line Spacing	1.5 倍行距
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	一款以 Rust 從零開始撰寫的免費開源文書處理軟體。\n屬於 Uniphar Indústria Farmacêutica 團隊的 Crafting Apps 系列。
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	一款以 Rust 從零開始撰寫的免費開源文書處理軟體。\nUniphar Indústria Farmacêutica 的 Uni 應用程式之一。
 	About	關於
 	About UniTexto	關於 UniTexto
 	Accept	接受
@@ -571,7 +571,7 @@
 	Merge Formatting	合併格式設定
 	Merged PRs	已合併的 PR
 	Mirrored	左右對稱
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0。著作權所有 (c) 2026 Uniphar Indústria Farmacêutica 團隊及 UniTexto 貢獻者。
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	Moderate	中等
 	Modify Style	修改樣式
 	Modify…	修改…
@@ -839,7 +839,7 @@
 	Small caps	小型大寫字
 	SmartArt	SmartArt
 	Sort	排序
-	Source code: github.com/storytold/wordcraft	原始碼：github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	原始碼：github.com/uaidenys/unitexto
 	Space	空格
 	Space before/after:	段落前/後間距：
 	Spacing	間距
@@ -1229,7 +1229,7 @@
 	Insert a new equation (Alt+=)	插入新方程式 (Alt+=)
 	Leave the equation (Esc)	離開方程式 (Esc)
 	Preview	預覽
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	Draw Ink	繪製筆跡
 	Erase Ink	擦除筆跡
 	Hide Ink	隱藏筆跡

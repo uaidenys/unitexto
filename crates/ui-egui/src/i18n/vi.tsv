@@ -19,7 +19,7 @@
 	(no style)	(không có kiểu)
 	(no suggestions)	(không có gợi ý)
 	1.5 Line Spacing	Giãn dòng 1,5
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Trình xử lý văn bản miễn phí, mã nguồn mở được viết từ đầu bằng Rust.\nMột phần trong bộ ứng dụng Crafting Apps của đội ngũ Uniphar Indústria Farmacêutica.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Trình xử lý văn bản miễn phí, mã nguồn mở được viết từ đầu bằng Rust.\nThuộc bộ ứng dụng Uni của Uniphar Indústria Farmacêutica.
 	About	Giới thiệu
 	About UniTexto	Giới thiệu về UniTexto
 	Accept	Chấp nhận
@@ -490,7 +490,7 @@
 	Link to Previous	Liên kết với phần trước
 	Links	Liên kết
 	Location: {path}	Vị trí: {path}
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Bản quyền (c) 2026 Uniphar Indústria Farmacêutica Team và các cộng tác viên UniTexto.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	Macros	Macro
 	Mailings	Gửi thư
 	Manage Sources	Quản lý nguồn
@@ -791,7 +791,7 @@
 	Small caps	Chữ hoa nhỏ
 	SmartArt	SmartArt
 	Sort	Sắp xếp
-	Source code: github.com/storytold/wordcraft	Mã nguồn: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Mã nguồn: github.com/uaidenys/unitexto
 	Space	Dấu cách
 	Space before/after:	Khoảng cách trước/sau:
 	Spacing	Khoảng cách
@@ -1164,7 +1164,7 @@
 	Insert a new equation (Alt+=)	Chèn phương trình mới (Alt+=)
 	Leave the equation (Esc)	Rời khỏi phương trình (Esc)
 	Preview	Xem thử
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	Draw Ink	Vẽ mực
 	Erase Ink	Xóa mực
 	Hide Ink	Ẩn mực

@@ -17,7 +17,7 @@
 
 	(no suggestions)	(brak propozycji)
 	1.5 Line Spacing	Interlinia 1,5
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Darmowy edytor tekstu o otwartym kodzie, napisany od podstaw w języku Rust.\nCzęść rodziny Crafting Apps zespołu Uniphar Indústria Farmacêutica.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Darmowy edytor tekstu o otwartym kodzie, napisany od podstaw w języku Rust.\nCzęść aplikacji Uni firmy Uniphar Indústria Farmacêutica.
 	About	Informacje
 	About UniTexto	O programie UniTexto
 	Accept	Zaakceptuj
@@ -414,7 +414,7 @@
 	Link to Previous	Połącz z poprzednim
 	Links	Linki
 	Location: {path}	Lokalizacja: {path}
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT lub Apache-2.0. Copyright (c) 2026 Uniphar Indústria Farmacêutica Team i współtwórcy UniTexto.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	Macros	Makra
 	Mailings	Korespondencja
 	Manage Sources	Zarządzaj źródłami
@@ -700,7 +700,7 @@
 	Small caps	Kapitaliki
 	SmartArt	SmartArt
 	Sort	Sortuj
-	Source code: github.com/storytold/wordcraft	Kod źródłowy: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Kod źródłowy: github.com/uaidenys/unitexto
 	Space before/after:	Odstęp przed/po:
 	Spacing	Odstępy
 	Spacing (pt):	Odstępy (pt):
@@ -1065,7 +1065,7 @@
 	Insert a new equation (Alt+=)	Wstaw nowe równanie (Alt+=)
 	Leave the equation (Esc)	Opuść równanie (Esc)
 	Preview	Podgląd
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	English (United Kingdom)	Angielski (Wielka Brytania)
 	English (Australia)	Angielski (Australia)
 	English (Canada)	Angielski (Kanada)

@@ -17,7 +17,7 @@
 	(no style)	(ingen stil)
 	(no suggestions)	(inga förslag)
 	1.5 Line Spacing	Radavstånd 1,5
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	En gratis ordbehandlare med öppen källkod, skriven från grunden i Rust.\nEn del av Crafting Apps från Uniphar Indústria Farmacêutica-teamet.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	En gratis ordbehandlare med öppen källkod, skriven från grunden i Rust.\nEn del av Uni-apparna från Uniphar Indústria Farmacêutica.
 	About	Om
 	About UniTexto	Om UniTexto
 	Accept	Acceptera
@@ -514,8 +514,8 @@
 	Inspect Styles at Selection	Inspektera stilar vid markeringen
 	Interface language:	Gränssnittsspråk:
 	Italic	Kursiv
-	Join the Uniphar Indústria Farmacêutica community on Discord	Gå med i ArtCrafts community på Discord
-	Join us on Discord: discord.gg/artcraft	Gå med i ArtCrafts community på Discord: discord.gg/artcraft
+	Join the Uniphar Indústria Farmacêutica community on Discord	Gå med i Uniphars community på Discord
+	Join us on Discord: discord.gg/artcraft	Gå med i Uniphars community på Discord: discord.gg/artcraft
 	Justify	Marginaljustera
 	Keep Lines Together	Håll ihop raderna
 	Keep Text Only	Behåll bara texten
@@ -556,7 +556,7 @@
 	Link to Previous	Länka till föregående
 	Links	Länkar
 	Location: {path}	Plats: {path}
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Uniphar Indústria Farmacêutica-teamet och WordCrafts bidragsgivare.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	Macros	Makron
 	Mailings	Utskick
 	Make UniTexto the default for Word documents…	Gör UniTexto till standardprogram för Word-dokument…
@@ -866,7 +866,7 @@
 	Small caps	Kapitäler
 	SmartArt	SmartArt
 	Sort	Sortera
-	Source code: github.com/storytold/wordcraft	Källkod: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Källkod: github.com/uaidenys/unitexto
 	Space	Blanksteg
 	Space before/after:	Avstånd före/efter:
 	Spacing	Avstånd
@@ -1256,7 +1256,7 @@
 	Insert a new equation (Alt+=)	Infoga en ny ekvation (Alt+=)
 	Leave the equation (Esc)	Lämna ekvationen (Esc)
 	Preview	Förhandsvisning
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	Draw Ink	Rita med bläck
 	Erase Ink	Sudda bläck
 	Hide Ink	Dölj bläck
@@ -1805,7 +1805,7 @@
 	No items to show.	Inga objekt att visa.
 	File name:	Filnamn:
 	Browse in UniTexto…	Bläddra i UniTexto…
-	Open a file with UniTexto's own browser when the system file dialog doesn't appear.	Öppna en fil med WordCrafts egen filbläddrare när systemets fildialogruta inte visas.
+	Open a file with UniTexto's own browser when the system file dialog doesn't appear.	Öppna en fil med UniTextos egen filbläddrare när systemets fildialogruta inte visas.
 	Hide White Space	Dölj tomrum
 	All pages	Alla sidor
 	Current page	Aktuell sida

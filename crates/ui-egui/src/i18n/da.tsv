@@ -7,7 +7,7 @@
 # Clean-room: written from the meaning of UniTexto's English labels in standard Danish.
 	(no suggestions)	(ingen forslag)
 	1.5 Line Spacing	1,5 Linjeafstand
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	En gratis open source-tekstbehandler skrevet fra bunden i Rust.\nEn del af Crafting Apps fra Uniphar Indústria Farmacêutica-teamet.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	En gratis open source-tekstbehandler skrevet fra bunden i Rust.\nEn del af Uni-apps fra Uniphar Indústria Farmacêutica.
 	About	Om
 	About UniTexto	Om UniTexto
 	Accept	Acceptér
@@ -390,7 +390,7 @@
 	Link to Previous	Opret forbindelse til forrige
 	Links	Links
 	Location: {path}	Placering: {path}
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Uniphar Indústria Farmacêutica Team og UniTexto-bidragsyderne.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	Macros	Makroer
 	Mailings	Post
 	Manage Sources	Administrer kilder
@@ -668,7 +668,7 @@
 	Small caps	Små kapitaler
 	SmartArt	SmartArt
 	Sort	Sortér
-	Source code: github.com/storytold/wordcraft	Kildekode: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Kildekode: github.com/uaidenys/unitexto
 	Space before/after:	Mellemrum før/efter:
 	Spacing	Afstand
 	Spacing (pt):	Afstand (pt):
@@ -1031,7 +1031,7 @@
 	Insert a new equation (Alt+=)	Indsæt en ny formel (Alt+=)
 	Leave the equation (Esc)	Forlad formlen (Esc)
 	Preview	Forhåndsvisning
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	English (United Kingdom)	Engelsk (Storbritannien)
 	Polish	Polsk
 	Do Not Check Spelling or Grammar	Kontrollér ikke stavning eller grammatik
@@ -1878,7 +1878,7 @@
 	Only comments can be added, except in regions marked editable.	Der kan kun tilføjes kommentarer, undtagen i områder, der er markeret til redigering.
 	Only form fields can be filled in.	Der kan kun udfyldes formularfelter.
 	Only the allowed styles can be applied.	Der kan kun anvendes tilladte stile.
-	Open a file with UniTexto's own browser when the system file dialog doesn't appear.	Åbn en fil i WordCrafts egen filbrowser, når systemets filedialog ikke vises.
+	Open a file with UniTexto's own browser when the system file dialog doesn't appear.	Åbn en fil i UniTextos egen filbrowser, når systemets filedialog ikke vises.
 	Ordinals (1st) as superscript	Ordinaltal (1st) som hævet skrift
 	Organizer	Organisator
 	Organizer…	Organisator…

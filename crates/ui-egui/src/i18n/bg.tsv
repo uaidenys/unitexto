@@ -19,7 +19,7 @@
 	(no style)	(без стил)
 	(no suggestions)	(няма предложения)
 	1.5 Line Spacing	Междуредие 1,5
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Безплатен текстообработващ редактор с отворен код, написан от нулата на Rust.\nЧаст от Crafting Apps на екипа на Uniphar Indústria Farmacêutica.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Безплатен текстообработващ редактор с отворен код, написан от нулата на Rust.\nЧаст от приложенията Uni на Uniphar Indústria Farmacêutica.
 	About	Относно
 	About UniTexto	За UniTexto
 	Accept	Приемане
@@ -498,7 +498,7 @@
 	Link to Previous	Връзка към предишния
 	Links	Връзки
 	Location: {path}	Местоположение: {path}
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Авторско право (c) 2026 Uniphar Indústria Farmacêutica Team и сътрудниците на UniTexto.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	Macros	Макроси
 	Mailings	Кореспонденция
 	Manage Sources	Управление на източниците
@@ -799,7 +799,7 @@
 	Small caps	Малки главни букви
 	SmartArt	SmartArt
 	Sort	Сортиране
-	Source code: github.com/storytold/wordcraft	Изходен код: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Изходен код: github.com/uaidenys/unitexto
 	Space	Интервал
 	Space before/after:	Разстояние преди/след:
 	Spacing	Разстояние
@@ -1173,7 +1173,7 @@
 	Insert a new equation (Alt+=)	Вмъкване на ново уравнение (Alt+=)
 	Leave the equation (Esc)	Излизане от уравнението (Esc)
 	Preview	Визуализация
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	Draw Ink	Рисуване с мастило
 	Erase Ink	Изтриване на мастило
 	Hide Ink	Скриване на мастилото

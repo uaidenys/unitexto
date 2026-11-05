@@ -47,7 +47,7 @@
 	<< Less	<< Manje
 	<< Remove	<< Ukloni
 	A file dialog is already open.	Dijaloški okvir za datoteke već je otvoren.
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Besplatan program za obradu teksta otvorenog koda, napisan od nule u Rustu.\nDio paketa Crafting Apps tima Uniphar Indústria Farmacêutica.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Besplatan program za obradu teksta otvorenog koda, napisan od nule u Rustu.\nDio Uni aplikacija tvrtke Uniphar Indústria Farmacêutica.
 	A mail merge field	Polje za spajanje pošte
 	A numbered sequence (figures, tables…)	Numerirani niz (slike, tablice…)
 	A password is required to open this document.	Za otvaranje ovog dokumenta potrebna je lozinka.
@@ -1291,7 +1291,7 @@ template	Letter	Pismo
 	Logical OR	Logičko ILI
 	Logical OR with Limits	Logičko ILI s granicama
 	Lum:	Svjetl.:
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Uniphar Indústria Farmacêutica Team i doprinositelji projekta UniTexto.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	MLA	MLA
 	Macros	Makronaredbe
 	Made from the author and year when empty	Izrađuje se iz autora i godine kada je prazno
@@ -2072,7 +2072,7 @@ template	Letter	Pismo
 	Sort	Sortiraj
 	Sort order:	Redoslijed sortiranja:
 	Source Manager	Upravitelj izvora
-	Source code: github.com/storytold/wordcraft	Izvorni kôd: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Izvorni kôd: github.com/uaidenys/unitexto
 	Source type:	Vrsta izvora:
 	Sources in this document:	Izvori u ovom dokumentu:
 	South	Jug
@@ -2491,7 +2491,7 @@ preview	Title	Naslov
 	can't split at the first row	nije moguće podijeliti na prvom retku
 	development build	razvojna verzija
 	from Unicode (hex)	iz Unicodea (heksadecimalno)
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	i, ii, iii, …	i, ii, iii, …
 	lowercase	mala slova
 	n×n Identity Matrix	Jedinična matrica n×n

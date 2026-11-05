@@ -15,7 +15,7 @@
 	(no suggestions)	(nema predloga)
 	(picture or object)	(slika ili objekat)
 	1.5 Line Spacing	Proređenost 1,5
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Besplatan, otvoreni obrađivač teksta napisan od nule u Rust-u.\nDeo Crafting Apps paketa tima Uniphar Indústria Farmacêutica.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Besplatan, otvoreni obrađivač teksta napisan od nule u Rust-u.\nDeo Uni aplikacija kompanije Uniphar Indústria Farmacêutica.
 	A password is required to open this document.	Za otvaranje ovog dokumenta potrebna je lozinka.
 	About	O programu
 	About UniTexto	O UniTexto-u
@@ -618,7 +618,7 @@
 	Merge Formatting	Spoji formatiranje
 	Merged PRs	Spojeni PR-ovi
 	Mirrored	Zrcaljeno
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Autorska prava (c) 2026 Uniphar Indústria Farmacêutica Team i saradnici na UniTexto-u.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	Moderate	Umereno
 	Modify Style	Izmeni stil
 	Modify…	Izmeni…
@@ -890,7 +890,7 @@
 	Soft Edges	Meke ivice
 	Sort	Sortiraj
 	Sort order:	Redosled sortiranja:
-	Source code: github.com/storytold/wordcraft	Izvorni kod: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Izvorni kod: github.com/uaidenys/unitexto
 	Space	Razmak
 	Space after: {pt} pt	Razmak posle: {pt} pt
 	Space before/after:	Razmak pre/posle:
@@ -1293,7 +1293,7 @@
 	Reset Crop	Poništi isecanje
 	Insert a new equation (Alt+=)	Umetni novu jednačinu (Alt+=)
 	Leave the equation (Esc)	Napusti jednačinu (Esc)
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	Draw Ink	Crtaj mastilom
 	Erase Ink	Obriši mastilo
 	Hide Ink	Sakrij mastilo

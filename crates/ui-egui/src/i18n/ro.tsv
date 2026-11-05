@@ -49,7 +49,7 @@
 	<< Less	<< Mai puțin
 	<< Remove	<< Elimină
 	A file dialog is already open.	O casetă de dialog pentru fișiere este deja deschisă.
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Un procesor de text gratuit și open-source, scris de la zero în Rust.\nFace parte din Crafting Apps ale echipei Uniphar Indústria Farmacêutica.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Un procesor de text gratuit și open-source, scris de la zero în Rust.\nFace parte din aplicațiile Uni de la Uniphar Indústria Farmacêutica.
 	A mail merge field	Un câmp de îmbinare corespondență
 	A numbered sequence (figures, tables…)	O secvență numerotată (figuri, tabele…)
 	A password is required to open this document.	Pentru a deschide acest document este necesară o parolă.
@@ -1368,7 +1368,7 @@
 	Logical OR	SAU logic
 	Logical OR with Limits	SAU logic cu limite
 	Lum:	Lum:
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Uniphar Indústria Farmacêutica Team și contribuitorii UniTexto.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	MLA	MLA
 	Macros	Macrocomenzi
 	Made from the author and year when empty	Se formează din autor și an când e gol
@@ -2194,7 +2194,7 @@
 	Sort by:	Sortează după:
 	Sort order:	Ordinea de sortare:
 	Source Manager	Manager de surse
-	Source code: github.com/storytold/wordcraft	Cod sursă: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Cod sursă: github.com/uaidenys/unitexto
 	Source type:	Tipul sursei:
 	Sources in this document:	Surse din acest document:
 	South	Sud
@@ -2633,7 +2633,7 @@
 	can't split at the first row	nu se poate împărți la primul rând
 	development build	versiune de dezvoltare
 	from Unicode (hex)	din Unicode (hex)
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	i, ii, iii, …	i, ii, iii, …
 	lowercase	minuscule
 	nothing is selected	nimic nu este selectat

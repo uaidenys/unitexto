@@ -7,7 +7,7 @@
 # Clean-room: written from the meaning of UniTexto's English labels in standard Dutch.
 	(no suggestions)	(geen suggesties)
 	1.5 Line Spacing	Regelafstand 1,5
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Een gratis, open source-tekstverwerker die volledig van scratch in Rust is geschreven.\nOnderdeel van de Crafting Apps van het team van Uniphar Indústria Farmacêutica.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Een gratis, open source-tekstverwerker die volledig van scratch in Rust is geschreven.\nOnderdeel van de Uni-apps van Uniphar Indústria Farmacêutica.
 	About	Over
 	About UniTexto	Over UniTexto
 	Accept	Accepteren
@@ -390,7 +390,7 @@
 	Link to Previous	Koppelen aan vorige
 	Links	Koppelingen
 	Location: {path}	Locatie: {path}
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Uniphar Indústria Farmacêutica Team en de UniTexto-bijdragers.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	Macros	Macro's
 	Mailings	Mailings
 	Manage Sources	Bronnen beheren
@@ -668,7 +668,7 @@
 	Small caps	Kleine hoofdletters
 	SmartArt	SmartArt
 	Sort	Sorteren
-	Source code: github.com/storytold/wordcraft	Broncode: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Broncode: github.com/uaidenys/unitexto
 	Space before/after:	Ruimte voor/na:
 	Spacing	Afstand
 	Spacing (pt):	Afstand (pt):
@@ -1031,7 +1031,7 @@
 	Insert a new equation (Alt+=)	Een nieuwe vergelijking invoegen (Alt+=)
 	Leave the equation (Esc)	Vergelijking verlaten (Esc)
 	Preview	Voorbeeld
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	English (United Kingdom)	Engels (Verenigd Koninkrijk)
 	Polish	Pools
 	Do Not Check Spelling or Grammar	Spelling en grammatica niet controleren

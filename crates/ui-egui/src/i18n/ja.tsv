@@ -3,7 +3,7 @@
 	(no style)	(スタイルなし)
 	(no suggestions)	（候補なし）
 	1.5 Line Spacing	1.5 行
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Rust でゼロから書かれた、無料のオープンソース ワープロです。\nArtCraft チームの Crafting Apps のひとつです。
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Rust でゼロから書かれた、無料のオープンソース ワープロです。\nUniphar Indústria Farmacêutica の Uni アプリのひとつです。
 	About	情報
 	About UniTexto	UniTexto について
 	Accept	承諾
@@ -570,7 +570,7 @@
 	Merge Formatting	書式を結合
 	Merged PRs	マージ済みの PR
 	Mirrored	見開きページ
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0。Copyright (c) 2026 Uniphar Indústria Farmacêutica チームおよび UniTexto の貢献者。
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	Moderate	やや狭い
 	Modify Style	スタイルの変更
 	Modify…	変更…
@@ -838,7 +838,7 @@
 	Small caps	小型英大文字
 	SmartArt	SmartArt
 	Sort	並べ替え
-	Source code: github.com/storytold/wordcraft	ソース コード: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	ソース コード: github.com/uaidenys/unitexto
 	Space	スペース
 	Space before/after:	段落前/後の間隔:
 	Spacing	間隔
@@ -1228,7 +1228,7 @@
 	Insert a new equation (Alt+=)	新しい数式を挿入 (Alt+=)
 	Leave the equation (Esc)	数式を終了 (Esc)
 	Preview	プレビュー
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	Draw Ink	インクで描く
 	Erase Ink	インクを消す
 	Hide Ink	インクを隠す

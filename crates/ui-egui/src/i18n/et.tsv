@@ -11,9 +11,9 @@
 
 	(no suggestions)	(soovitused puuduvad)
 	1.5 Line Spacing	Reavahe 1,5
-	A free, open-source word processor written from scratch in Rust.\nPart of the Crafting Apps from the Uniphar Indústria Farmacêutica team.	Tasuta avatud lähtekoodiga tekstitöötlusprogramm, mis on kirjutatud Rustis.\nArtCrafti meeskonna Crafting Appsi osa.
+	A free, open-source word processor written from scratch in Rust.\nPart of the Uni apps from Uniphar Indústria Farmacêutica.	Tasuta avatud lähtekoodiga tekstitöötlusprogramm, mis on kirjutatud Rustis.\nOsa Uniphar Indústria Farmacêutica Uni rakendustest.
 	About	Teave
-	About UniTexto	WordCrafti teave
+	About UniTexto	UniTexto teave
 	Accept	Nõustu
 	Accept All Changes	Nõustu kõigi muudatustega
 	Accept This Change	Nõustu selle muudatusega
@@ -395,7 +395,7 @@
 	Interface language	Kasutajaliidese keel
 	Interface language:	Kasutajaliidese keel:
 	Italic	Kaldkiri
-	Join the Uniphar Indústria Farmacêutica community on Discord	Liitu ArtCrafti kogukonnaga Discordis
+	Join the Uniphar Indústria Farmacêutica community on Discord	Liitu Uniphari kogukonnaga Discordis
 	Join us on Discord: discord.gg/artcraft	Liitu meiega Discordis: discord.gg/artcraft
 	Justify	Rööpjoonda
 	Keep Lines Together	Hoia read koos
@@ -439,7 +439,7 @@
 	Links	Lingid
 	Location: {path}	Asukoht: {path}
 	Mirror indents	Peegelda taanded
-	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Autoriõigus (c) 2026 ArtCrafti meeskond ja WordCrafti kaasautorid.
+	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.	MIT OR Apache-2.0. Copyright (c) 2026 Denys Rodrigues de Oliveira.
 	Macros	Makrod
 	Mailings	Postitused
 	Manage Sources	Halda allikaid
@@ -752,7 +752,7 @@
 	Small caps	Kapiteelkiri
 	SmartArt	SmartArt
 	Sort	Sordi
-	Source code: github.com/storytold/wordcraft	Lähtekood: github.com/storytold/wordcraft
+	Source code: github.com/uaidenys/unitexto	Lähtekood: github.com/uaidenys/unitexto
 	Space before/after:	Vahe enne/pärast:
 	Spaces	Tühikud
 	Spacing	Vahe
@@ -968,7 +968,7 @@
 	Stopped	Lõpetatud
 	Speed	Kiirus
 	Normal speed	Tavaline kiirus
-	AutoSave documents you have saved in UniTexto	Salvesta WordCraftis salvestatud dokumendid automaatselt
+	AutoSave documents you have saved in UniTexto	Salvesta UniTextos salvestatud dokumendid automaatselt
 	AutoSave failed: {error}. Save the document to turn AutoSave back on.	Automaatsalvestus ebaõnnestus: {error}. Selle uuesti sisse lülitamiseks salvesta dokument.
 	Couldn't download {name}: {error}	Faili {name} allalaadimine ebaõnnestus: {error}
 	Do you want to save changes to {name}?	Kas soovid faili {name} muudatused salvestada?
@@ -1138,7 +1138,7 @@
 	Left Margin	Vasak veeris
 	Repeat as header row on each page	Korda päisereana igal lehel
 	Insert a new equation (Alt+=)	Lisa uus võrrand (Alt+=)
-	getartcraft.com/apps/wordcraft	getartcraft.com/apps/wordcraft
+	uniphar.com.br	uniphar.com.br
 	Bottom Margin	Alumine veeris
 	Cell	Lahter
 	Specify height:	Määra kõrgus:
@@ -1661,12 +1661,12 @@
 	Hindi	Hindi
 	Context	Kontekst
 	System	Süsteem
-	Couldn't make UniTexto the default: {error}	WordCrafti ei õnnestunud vaikerakenduseks määrata: {error}
+	Couldn't make UniTexto the default: {error}	UniTexto ei õnnestunud vaikerakenduseks määrata: {error}
 	In Default apps, choose UniTexto for the document types you want it to open.	Vali jaotises „Vaikerakendused“ UniTexto nende dokumenditüüpide jaoks, mida see peaks avama.
 	Make UniTexto the default for Word documents…	Määra UniTexto Wordi dokumentide vaikerakenduseks…
-	Opens .docx, .doc, .rtf and .odt files and Word templates with UniTexto from now on.	Edaspidi avatakse .docx-, .doc-, .rtf- ja .odt-failid ning Wordi mallid WordCraftiga.
-	Opens Settings › Default apps, where you choose UniTexto for .docx and the other document types.	Avab Sätted › Vaikerakendused, kus saad valida WordCrafti .docx-i ja teiste dokumenditüüpide jaoks.
-	To open Word documents with UniTexto by default: select one in Finder, choose File › Get Info, pick UniTexto under Open with, then click Change All.	Wordi dokumentide vaikimisi avamiseks WordCraftiga vali Finderis üks dokument, vali Fail › Hangi teave, vali jaotises „Ava rakendusega“ UniTexto ja klõpsa „Muuda kõiki“.
+	Opens .docx, .doc, .rtf and .odt files and Word templates with UniTexto from now on.	Edaspidi avatakse .docx-, .doc-, .rtf- ja .odt-failid ning Wordi mallid UniTextoga.
+	Opens Settings › Default apps, where you choose UniTexto for .docx and the other document types.	Avab Sätted › Vaikerakendused, kus saad valida UniTexto .docx-i ja teiste dokumenditüüpide jaoks.
+	To open Word documents with UniTexto by default: select one in Finder, choose File › Get Info, pick UniTexto under Open with, then click Change All.	Wordi dokumentide vaikimisi avamiseks UniTextoga vali Finderis üks dokument, vali Fail › Hangi teave, vali jaotises „Ava rakendusega“ UniTexto ja klõpsa „Muuda kõiki“.
 	UniTexto is now the default app for Word documents.	UniTexto on nüüd Wordi dokumentide vaikerakendus.
 	Templates	Mallid
 	Templates and Add-ins	Mallid ja lisandmoodulid
@@ -1784,8 +1784,8 @@
 	This folder can't be read: {error}	Seda kausta ei saa lugeda: {error}
 	Showing the first {count} items.	Kuvatud on ainult esimesed kirjed: {count}.
 	File name:	Faili nimi:
-	Browse in UniTexto…	Sirvi WordCraftis…
-	Open a file with UniTexto's own browser when the system file dialog doesn't appear.	Ava fail WordCrafti enda failisirvijaga, kui süsteemi failidialoog ei ilmu.
+	Browse in UniTexto…	Sirvi UniTextos…
+	Open a file with UniTexto's own browser when the system file dialog doesn't appear.	Ava fail UniTexto enda failisirvijaga, kui süsteemi failidialoog ei ilmu.
 	Hide White Space	Peida tühi ala lehtede vahel
 	All pages	Kõik leheküljed
 	Current page	Praegune lehekülg
@@ -2202,7 +2202,7 @@
 	Number only, without the label's words	Ainult number, ilma sildi sõnadeta
 	Add whether it is above or below	Lisa, kas see on üleval või all
 	Start-up	Käivitamine
-	Show the Start screen when UniTexto starts	Näita WordCrafti käivitamisel avakuva
+	Show the Start screen when UniTexto starts	Näita UniTexto käivitamisel avakuva
 	On: UniTexto opens on File › Home, with a blank document, the templates and your recent documents. Off: it opens a blank document.	Sees: UniTexto avaneb vaates Fail › Avaleht, kus on tühi dokument, mallid ja hiljutised dokumendid. Väljas: avaneb tühi dokument.
 	Copy to	Kopeeri asukohta
 
